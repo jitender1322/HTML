@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form In HTML</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>My Form</legend>
+        <form action="" method="" enctype="">
+            <label for="uname">User Name</label>
+            <input type="text" name="uname" id="uname"><br>
+            <label for="upass">User Password</label>
+            <input type="password" name="upass" id="upass"><br>
+            <label for="uemail">User Email</label>
+            <input type="text" name="uemail" id="uemail"><br>
+            <label for="umobile">User Mobile</label>
+            <input type="text" name="umobile" id="umobile"><br>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </fieldset>
+
+    <!-- action => Backend path , whereever we want to send our data  -->
+    <!-- method =>  get and post -->
+    <!-- get => less secure -->
+    <!-- 255 char.  limitation -->
+    <!-- it shows data in url  -->
+    <!-- easly bookmarked  -->
+    <!-- post => secure  -->
+    <!-- no limitation -->
+    <!-- file supported -->
+    <!-- enctype => Multimedia supported / used when method is post  -->
+    <!-- ? => string  -->
+    <!-- & => multiple data  -->
+
+    <fieldset>
+        <legend>Form Input Type</legend>
+        <!-- <form action=""> -->
+        <input type="text" placeholder="Text"><br>
+        <input type="email" placeholder="email"><br>
+        <input type="url" placeholder="url"><br>
+        <input type="number" placeholder="number"><br>
+        <input type="tel" placeholder="tel"><br>
+        <input type="password" placeholder="password"><br>
+        <input type="range"><br>
+        <input type="time"><br>
+        <input type="date"><br>
+        <input type="month"><br>
+        <input type="week"><br>
+        <input type="datetime-local"><br>
+        <input type="image"><br>
+        <input type="hidden"><br>
+        <input type="file"><br>
+        <input type="search"><br>
+        <input type="color"><br>
+        <input type="reset"><br>
+        <input type="button"><br>
+        <input type="submit"><br>
+        <!-- </form> -->
+    </fieldset>
+    <hr>
+    <fieldset>
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
+        <br><br><br>
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <option value="WD">WD</option>
+            <option value="FD">FD</option>
+            <option value="python">python</option>
+            <option value="java">java</option>
+        </select>
+        <br>
+        <label for="textarea">textarea</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+
+</body>
+
+</html>
